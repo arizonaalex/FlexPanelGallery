@@ -24,7 +24,10 @@
     .panels {
       min-height:100vh;
       overflow: hidden;
+<<<<<<< HEAD
       display: flex;
+=======
+>>>>>>> 0e56fe999979bb9d95084559d48f3dab94c4ac59
     }
 
     .panel {
@@ -42,12 +45,15 @@
       font-size: 20px;
       background-size:cover;
       background-position:center;
+<<<<<<< HEAD
       flex: 1;
       align-items: center;
       justify-content: center;
       display: flex;
       flex-direction: column;
       
+=======
+>>>>>>> 0e56fe999979bb9d95084559d48f3dab94c4ac59
     }
 
 
@@ -61,6 +67,7 @@
       margin:0;
       width: 100%;
       transition:transform 0.5s;
+<<<<<<< HEAD
  
       flex: 1 0 auto;
       display: flex;
@@ -73,6 +80,10 @@
     .panel > *:last-child  {      transform: translateY(100%);    }
     .panel.open-active > *:last-child {transform:translateY(0);}
 
+=======
+    }
+
+>>>>>>> 0e56fe999979bb9d95084559d48f3dab94c4ac59
     .panel p {
       text-transform: uppercase;
       font-family: 'Amatic SC', cursive;
@@ -85,7 +96,10 @@
 
     .panel.open {
       font-size:40px;
+<<<<<<< HEAD
       flex:5;
+=======
+>>>>>>> 0e56fe999979bb9d95084559d48f3dab94c4ac59
     }
 
   </style>
@@ -120,6 +134,7 @@
   </div>
 
   <script>
+<<<<<<< HEAD
   const panels =document.querySelectorAll('.panel')
 
   function toggleOpen(){
@@ -133,6 +148,8 @@
 
   panels.forEach(panel => panel.addEventListener('click', toggleOpen));
   panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+=======
+>>>>>>> 0e56fe999979bb9d95084559d48f3dab94c4ac59
 
   </script>
 
